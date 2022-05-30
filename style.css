@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(82, 160, 238);
+    background-color: rgb(247, 221, 148);
 }
 
 #name{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(54, 40, 163);
+    color: black;
 }
 
 .icons{
@@ -22,14 +22,11 @@ body{
     align-items: center;
 }
 
-#mint{
-    color: mediumspringgreen;
+#personal_picture {
+    height: 10%;
+    width: 10%;
 }
 
-#white{
-    color: white;
-}
-
-#brown{
-    color: brown;
+.text {
+    font-family: Arial, Helvetica, sans-serif;
 }
