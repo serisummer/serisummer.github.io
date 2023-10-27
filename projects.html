@@ -16,7 +16,7 @@ EMAIL: weiguaw@uci.edu
         crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt+Neon">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="projects.css">
   <title>Weiguang's Portfolio</title>
 </head>
 
@@ -41,15 +41,56 @@ EMAIL: weiguaw@uci.edu
           <a class="nav-link" href="#contacts">Contacts</a>
         </li>
       </ul>
-      <a class="btn btn-primary" href="about_me.html" role="button">
-        <span class="material-symbols-outlined">arrow_forward</span>
-      </a>
+      <div class="ml-auto">
+        <a class="btn btn-primary" href="about_me.html" role="button">
+          <span class="material-symbols-outlined">arrow_back</span>
+        </a>
+        <a class="btn btn-primary" href="skills.html" role="button">
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+      </div>
     </nav>
   </header>
 
   <main>
     <div class="container-fluid d-flex flex-wrap">
-      <h1 id="welcome">WELCOME!</h1>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="page-title">My Projects</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <em><strong>Search Engine</strong></em>
+          </div>
+          <div class="col">
+            A program in Python that can give the user the top most relevant urls based on queries entered by the user.
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <em><strong>Machine Learning Classifier Analysis</strong></em>
+          </div>
+          <div class="col">
+            A report that explore how different variables affect different types of classifiers using the CIFAR-10 dataset.
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col">
+            <em><strong>Air Quality Geo Mapping</strong></em>
+          </div>
+          <div class="col">
+            A program that maps geolocation data to air quality data and shows user a list of places within certain distance in order of their air quality.
+            This program uses the Nominatim API for geocoding data and PurpleAir API for air quality data.
+          </div>
+        </div>
+      </div>
+
     </div>
   </main>
 

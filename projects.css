@@ -1,0 +1,73 @@
+body {
+    background-color: #BDE0FE;
+}
+
+.navbar {
+    background-color: pink;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+#logo {
+    width:3rem;
+    height:3rem;
+    margin-right: 1rem;
+}
+
+.navbar-brand {
+    font-family: "Tilt Neon", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.nav-item {
+    font-family: "Tilt Neon", Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    background-color: #FFAFCC ;
+    border: none;
+}
+
+.material-symbols-outlined {
+  padding-top: 0.3rem;
+  color: purple;
+}
+
+.container-fluid {
+    font-family: "Tilt Neon", Arial, Helvetica, sans-serif;
+    background-color: #A2D2FF;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.float-child {
+    width: 49%;
+    margin: 0.5%;
+    margin-top: 1rem;
+    float: left;
+    background-color: pink;
+}
+
+#info {
+    margin-top: 0.75rem;
+}
+
+.social {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    margin-top: 0.8rem;
+}
+
+.row {
+    padding-bottom: 1rem;
+}
