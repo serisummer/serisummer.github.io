@@ -1,0 +1,5 @@
+@reference "tailwindcss";
+
+.experience {
+  @apply m-2;
+}

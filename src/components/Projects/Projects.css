@@ -1,0 +1,5 @@
+@reference "tailwindcss";
+
+.project {
+  @apply m-2;
+}

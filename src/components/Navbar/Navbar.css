@@ -1,0 +1,13 @@
+@reference "tailwindcss";
+
+#navbar {
+  @apply flex flex-row items-center justify-between px-8 sticky top-0 z-50;
+}
+
+#name {
+  @apply text-4xl font-bold;
+}
+
+#nav-links {
+  @apply flex flex-row items-center gap-8 text-lg;
+}
